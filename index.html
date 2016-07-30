@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Banking Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+  First name:<br>
+  <input type="text" name="First Name"><br>
+  Middle Initial:<br>
+  <input type="text" name="Middle Initial"><br>
+  Last name:<br>
+  <input type="text" name="Last Name"><br>
+  Address:<br>
+  <input type="text" name="Address"><br>
+  Occupation:<br>
+  <input type="text" name="Occupation"><br>
+  Employer:<br>
+  <input type="text" name="Employer"><br>
+  Employer's Address:<br>
+  <input type="text" name="Employer's Address"><br>
+
+<form>
+ Type of loan requested:<br>
+  <input type="radio" name="loan" value="Commercial">Commercial loan<br>
+  <input type="radio" name="loan" value="Real Estate">Real Estate loan<br>
+  <input type="radio" name="loan" value="Personal">Personal loan<br>
+  <input type="radio" name="loan" value="Mortgage">Mortgage<br>
+</form>
+
+  <form>
+  	Requested amount of loan:<br>
+  	<input type="text" name="Amount"><br>
+</form>
+<form>
+  <input type="radio" name="loan" value="five"> Five year loan<br>
+  <input type="radio" name="loan" value="fifteen"> Fifteen year loan<br>
+  <input type="radio" name="loan" value="thirty"> Thirty year loan<br>
+</form>
+
+<input type="checkbox" name="your-group" value="I have a down payment"/>I have a down payment
+<input type="checkbox" name="your-group" value="Out-of-state resident"/>Out-of-state resident
+<input type="checkbox" name="your-group" value="Married"/>Married
+<input type="checkbox" name="your-group" value="Loan will be co-signed"/>Loan will be co-signed<br>
+
+<textarea name="Additional Comments" <cols="50" rows="5"></textarea><br>
+
+<form>
+  Applicant email:<br>
+  <input type="text" name="Email address" required placeholder="Enter a valid email address"><br>
+  Phone:<br>
+  <input type="number" name="Phone number" required placeholder="Enter your ten digit number"><br>
+  Linkedin URL:<br>
+  <input type="text" name="Linkedin URL" required pattern="https?://.+"><br>
+  </form>
+</body>
+</html>

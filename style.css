@@ -1,0 +1,55 @@
+body {
+	background-color: #fffee6;
+	color: brown;
+
+}
+
+p {
+    font-family: Arial, Verdana, Serif;
+}
+
+p {
+    font-size: 100%;
+  
+}
+
+p.small {
+    line-height: 90%;
+}
+
+h2.padding {
+	20px;
+}
+
+div {
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+div.two {
+	border: 2px solid;
+    border-radius: 25px;
+}
+
+div.three {
+	border: 2px solid;
+    border-radius: 45px;
+}
+
+div.four {
+	border: 2px solid;
+    border-radius: 55px;
+}
+
+div.five {
+	border: 2px solid;
+    border-radius: 65px;
+}
+
+input:valid { 
+color: green;
+}
+
+input:invalid {
+color: red;
+}
